@@ -221,7 +221,10 @@ img {
   fill: var(--first-color);
 }
 .home__blob-img {
-  width: 360px;
+  width: 300px;   /* increase size */
+  height: auto;
+  transform: scale(1.2) translate(0px, 20px); /* zoom + move slightly */
+  object-fit: cover;
 }
 
 /*BUTTONS*/
@@ -510,7 +513,7 @@ img {
 
 .nav__resume {
   display: flex;
-  margin-left: 160px;
+  margin-left: 440px;
   align-items: center;
   justify-content: center;
   padding: 0.75rem 2.5rem;
