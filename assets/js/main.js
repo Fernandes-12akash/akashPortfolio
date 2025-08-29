@@ -55,12 +55,13 @@ const resumeButton = document.querySelector('.nav__resume');
 
 resumeButton.addEventListener('click', () => {
   const link = document.createElement('a');
-  link.download = 'Resume.pdf'; // Set the desired file name here
-  link.href = 'Resume-ak.pdf'; // Replace the path with the actual path to your resume file
+  link.download = 'Akash_Resume.pdf'; // Set the desired file name here
+  link.href = 'akash_resume.pdf'; // Replace the path with the actual path to your resume file
   link.click();
 });
 
 sr.reveal('.home__data, .about__img, .skills__subtitle, .skills__text',{}); 
 sr.reveal('.home__img, .about__subtitle, .about__text, .skills__img',{delay: 400}); 
 sr.reveal('.home__social-icon',{ interval: 200}); 
+
 sr.reveal('.skills__data, .work__img, .contact__input',{interval: 200}); 
