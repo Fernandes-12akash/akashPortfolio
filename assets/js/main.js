@@ -55,8 +55,8 @@ const resumeButton = document.querySelector('.nav__resume');
 
 resumeButton.addEventListener('click', () => {
   const link = document.createElement('a');
-  link.download = 'Akash_Resume.pdf'; // Set the desired file name here
-  link.href = 'akash_resume.pdf'; // Replace the path with the actual path to your resume file
+  link.download = 'akash_resume_3_june_2026.pdf'; // Set the desired file name here
+  link.href = 'akash_resume_3_june_2026.pdf'; // Replace the path with the actual path to your resume file
   link.click();
 });
 
